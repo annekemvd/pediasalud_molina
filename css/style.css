@@ -167,8 +167,8 @@ body {
     font-weight: bold;
 }
 
-/*footer*/
 
+/*footer
 .footer {
     background-color: rgb(222, 239, 254);
     padding: 1rem;
@@ -219,6 +219,37 @@ body {
     font-size:x-large;
 
 }
+*/
+
+
+.col {
+    background-color: rgb(222, 239, 254);
+    color: rgba(0, 51, 102);
+    font-size: xx-small;
+    text-align: center;
+    
+   
+}
+
+.lista1 {
+    color: rgba(0, 51, 102);
+    font-size: large;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer__instagram {
+    font-size: medium;
+
+}
+
+#instagram {
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+
 
 
 /*Imagen de fondo de todas las paginas*/
@@ -247,6 +278,19 @@ img {
 }
 
 /*preguntas y respuestas*/
+
+.accordion {
+    padding: 5%;
+}
+.accordion-item {
+    color: rgba(83, 184, 180);
+}
+
+.accordion-button {
+    color: rgba(0, 51, 102);
+}
+/*Código eliminado por el estilo de bootstrap
+
 .faq {
     padding-left: 20%;
     padding-right: 10%;
@@ -276,6 +320,8 @@ img {
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
+
+*/
 
 /*formulario de contacto*/
 #h2 {
@@ -330,8 +376,8 @@ textarea {
 
 }
 
-/*galeria*/
 
+/*galeria*/
 .grid__galeria {
     border: 2px solid aliceblue;
     padding: 1rem;
@@ -862,6 +908,8 @@ textarea {
         color: aliceblue;
         padding-left: 0;
     }
+
+   
 }
 
 @media screen and (max-width: 600px) {
@@ -1218,13 +1266,6 @@ textarea {
         display: flex;
     }
 
-    .gradiente {
-        width: 100%;
-        height: 100px;
-        background-color: blue;
-        background-image: linear-gradient(to left, #090979, #dffaff);
-
-    }
-
+    
     
 }
