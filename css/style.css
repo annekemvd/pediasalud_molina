@@ -168,7 +168,7 @@ body {
 }
 
 
-/*footer
+/*footer*/
 .footer {
     background-color: rgb(222, 239, 254);
     padding: 1rem;
@@ -209,46 +209,16 @@ body {
 
 .footer__derechos {
     background-color: rgba(0, 51, 102);
-    padding-bottom: 10px;
-    padding-left: 108px;
     text-align: center;
     color: aliceblue;
 }
 
 #instagram {
     font-size:x-large;
-
-}
-*/
-
-
-.col {
-    background-color: rgb(222, 239, 254);
-    color: rgba(0, 51, 102);
-    font-size: xx-small;
-    text-align: center;
-    
-   
-}
-
-.lista1 {
-    color: rgba(0, 51, 102);
-    font-size: large;
-    text-align: left;
     text-decoration: none;
-}
-
-.footer__instagram {
-    font-size: medium;
+    color: rgba(0, 51, 102);
 
 }
-
-#instagram {
-    text-decoration: none;
-    font-size: medium;
-
-}
-
 
 
 
