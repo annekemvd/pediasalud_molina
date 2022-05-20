@@ -1,0 +1,86 @@
+.main__imagen {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.main__lista {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main__especialistas {
+    display:flex;
+
+}
+
+.main__especialistas__imagen {
+    padding: 1px 50px 50px 50px;
+    display: inline-block;
+    position: relative;
+
+    top: -150px;
+    
+}
+
+.section1 {
+    color: $color-principal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__titulo {
+        font-size: 50px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    &__subtitulo {
+        font-size: 30px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    
+    &__parrafo {
+        color: $color-principal;
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-right: 80px;
+        margin-left: 80px;
+        text-align: center;
+    }
+}
+
+
+.whatsapp {
+    background-color: rgb(37, 211, 102);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 70px;
+    display: inline-block;
+    position: fixed;
+
+    bottom: 2rem;
+    right: 2rem;
+
+    &__image {
+        padding: 0rem 0rem;
+        display: inline-block;
+        position: fixed;
+        z-index: 10;
+        
+        bottom: 5rem;
+        right: 4.5rem;
+    }
+    
+}
+
+
+.rounded {
+    border-radius: 30px;
+    font-weight: bold;
+}

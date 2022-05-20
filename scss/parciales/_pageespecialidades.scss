@@ -1,0 +1,143 @@
+/*Lista especialidades*/
+
+.list  {
+    
+    display:inline-block;
+    padding-left: 20%;
+    color: $color-principal;
+  
+
+}
+/*galeria Especialistas*/
+
+.grid__especialistas {
+    border: 2px solid aliceblue;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    min-height: 500px;
+    
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+
+    grid-template-rows: repeat(6, 1fr);
+
+    grid-template-areas: 
+    "ele1 ele2 ele3" 
+    "ele4 ele5 ele6" 
+    "ele7 ele8 ele9"
+    "ele10 ele11 ele12"
+    "ele13 ele14 ele15"
+    "ele16 ele17 ele17";
+
+    justify-items: stretch;
+    align-items: stretch;
+
+    justify-content: space-between;
+    justify-content: space-between;
+
+}
+
+.grid__especialista__imagen {
+    border: 2px solid aliceblue;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+
+    position: relative;
+}
+
+.grid__especialista__imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid__especialista__imagen--1 {
+    grid-area: ele1;
+    background-color: blue;
+}
+
+.grid__especialista__imagen--2 {
+    grid-area: ele2;
+    background-color: rgb(255, 132, 0);
+}
+
+.grid__especialista__imagen--3 {
+    grid-area: ele3;
+    background-color: rgb(255, 0, 0);
+}
+
+.grid__especialista__imagen--4 {
+    grid-area: ele4;
+    background-color: rgb(0, 255, 64);
+}
+
+.grid__especialista__imagen--5 {
+    grid-area: ele5;
+    background-color: rgb(255, 0, 166);
+}
+
+.grid__especialista__imagen--6 {
+    grid-area: ele6;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--7 {
+    grid-area: ele7;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--8 {
+    grid-area: ele8;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--9 {
+    grid-area: ele9;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--10 {
+    grid-area: ele10;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--11 {
+    grid-area: ele11;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--12 {
+    grid-area: ele12;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--13 {
+    grid-area: ele13;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--14 {
+    grid-area: ele14;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--15 {
+    grid-area: ele15;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--16 {
+    grid-area: ele16;
+    background-color: rgb(238, 255, 0);
+}
+
+.grid__especialista__imagen--17 {
+    grid-area: ele17;
+    height: fit-content;
+    padding-top: 10%;
+    
+    
+}

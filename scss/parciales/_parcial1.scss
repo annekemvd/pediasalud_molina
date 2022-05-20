@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+
+.colorrosa {
+    color: rgb(237, 93, 160);
+}
+
+.colorturquesa {
+    color: RGBA(83, 184, 180);
+}
+
+.colormostaza {
+    color: rgb(244, 167, 58);
+}
+
+
+@font-face {
+    font-family: 'Crete';
+    src: url(../fonts/CreteRound-Regular.ttf);
+}
+
+body {
+    background-color: aliceblue;
+    font-family:'Crete';
+    src: url(../fonts/CreteRound-Regular.ttf);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
