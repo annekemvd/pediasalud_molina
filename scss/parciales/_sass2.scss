@@ -1,0 +1,19 @@
+
+/*Utilizando mapa*/
+
+$estilos: (
+    color: aliceblue,
+    centro: center,
+    tfuente: small,
+
+);
+
+@mixin generarflex($direction, $eje-principal, $eje-secundario:center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+
+};
+
+

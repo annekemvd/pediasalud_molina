@@ -1,6 +1,6 @@
 #h2 {
     color: $color-principal;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     padding-bottom: 20px;
 }
 
@@ -33,14 +33,14 @@ textarea {
     
 .table__button {
     background-color: RGBA(83, 184, 180);
-    color: aliceblue;
+    color: map-get($estilos, color);
     font-weight: bold;
     width: 100px;
     padding: 10px;
     margin-left: 40%;
     border: 1px solid $color-principal;
     border-radius: 5px;
-    text-align:center;
+    text-align:map-get($estilos, centro);
 
     }
 /*Mapa*/

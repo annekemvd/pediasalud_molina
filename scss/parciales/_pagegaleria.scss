@@ -35,8 +35,8 @@
 .grid__imagen {
     border: 2px solid aliceblue;
     padding: 0;
-    color: aliceblue;
-    text-align: center;
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
 
     position: relative;
 }

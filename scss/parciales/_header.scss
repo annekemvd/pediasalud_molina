@@ -1,11 +1,9 @@
 
 .header {
-    background-color: aliceblue;
+    background-color: map-get($estilos, color);
     padding: 1rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include generarflex(row, space-between, center);
     position: fixed;
     top: 0;
     left: 0;
@@ -31,8 +29,7 @@
     &__lista {
         list-style-type: none;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        @include generarflex(row, space-between, center);
         
         gap: 16px;
     }

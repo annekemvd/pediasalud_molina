@@ -11,15 +11,15 @@
 
     &__box {
         padding-top: 1.7%;
-        font-size: small;
+        font-size: map-get($estilos, tfuente);
         line-height: 1.5rem;
-        text-align: center;
+        text-align: map-get($estilos, centro);
         color: $color-principal;
         
     }
     
     &__box2 {
-        font-size: small;
+        font-size: map-get($estilos, tfuente);
         line-height: 1.5rem;
         padding: -3rem 1rem 0rem;
         padding-bottom: 32px;
@@ -35,8 +35,8 @@
     
     &__derechos {
         background-color: RGBA(0, 51, 102);
-        text-align: center;
-        color: aliceblue;
+        text-align: map-get($estilos, centro);
+        color: map-get($estilos, color);
     }
     
 

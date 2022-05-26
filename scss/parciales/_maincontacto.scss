@@ -28,8 +28,8 @@
 .grid__contacto__mapa {
     border: 2px solid aliceblue;
     padding: 0;
-    color: aliceblue;
-    text-align: center;
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
 
     position: relative;
 }
@@ -55,7 +55,7 @@
 }
 
 .grid__contacto--texto {
-    text-align: center;
+    text-align: map-get($estilos, centro);
     font-size: medium;
     color: $color-principal;
 }

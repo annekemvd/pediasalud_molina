@@ -28,7 +28,7 @@ html{
 }
 
 body {
-    background-color: aliceblue;
+    background-color: map-get($estilos, color);
     font-family:'Crete';
     src: url(../fonts/CreteRound-Regular.ttf);
     padding: 1rem;
