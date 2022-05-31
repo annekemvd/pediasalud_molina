@@ -225,10 +225,16 @@ img {
 
 .accordion {
   padding: 5%;
+  padding-top: 0;
+}
+
+.btn-colorppal {
+  background-color: RGBA(0, 51, 102);
+  color: aliceblue;
 }
 
 .accordion-item {
-  color: RGBA(83, 184, 180);
+  color: RGBA(0, 51, 102);
 }
 
 .accordion-button {

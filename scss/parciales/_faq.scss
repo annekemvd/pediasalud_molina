@@ -1,9 +1,15 @@
 
 .accordion {
     padding: 5%;
+    padding-top: 0;
+}
+
+.btn-colorppal {
+    background-color: $color-principal;
+    color: aliceblue;
 }
 .accordion-item {
-    color: RGBA(83, 184, 180);
+    color: $color-principal;
 }
 
 .accordion-button {
