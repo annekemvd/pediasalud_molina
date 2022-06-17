@@ -1,6 +1,6 @@
 
 .header {
-    background-color: map-get($estilos, color);
+    background-color:rgb(222, 239, 254);
     padding: 1rem;
     display: flex;
     @include generarflex(row, space-between, center);

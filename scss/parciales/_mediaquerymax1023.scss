@@ -27,6 +27,8 @@
 
     .main__imagen {
         margin-top: 140PX;
+        height: 300px;
+        width: 100%;
         
     }
 
@@ -55,7 +57,7 @@
     .whatsapp__image {
         width: 45px;
         bottom: 22%;
-        right: 5%;
+        right: 4%;
     }
 
     .faq__pregunta {
@@ -77,6 +79,15 @@
 
    .grid__texto {
        font-size: smaller;
+   }
+
+   .grid__texto1 {
+    font-size: small;
+    border-radius: 9.5px;
+    margin-right: 5%;
+    margin-bottom: 6px;
+    padding: 7px;
+    text-decoration: none;
    }
 
    .grid__contacto {
@@ -203,12 +214,13 @@
 
     
     .footer__box {
-        font-size: 8px;    
+        font-size: 8px; 
+        padding-top: 10px;   
     }
     
     .footer__box2 {
         font-size: 8px;
-        padding-top: 0;
+        padding-top: 10px;
         
      
     }
@@ -219,6 +231,23 @@
         text-align: center;
         color: aliceblue;
         padding-left: 0;
+    }
+
+    #carouselExampleIndicators {
+        display: none;
+    }
+
+    .section2__titulo {
+        display: none;
+        
+    }
+
+    .section2__subtitulo {
+        display: none;
+    }
+
+    .accordion {
+        padding-bottom: 6%;
     }
 
    
